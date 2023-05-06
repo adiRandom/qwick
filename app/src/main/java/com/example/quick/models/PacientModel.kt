@@ -1,3 +1,8 @@
 package com.example.quick.models
 
-data class Pacient()
+data class PacientModel(
+    val id: String,
+    val name: String,
+    val historyModelList: List<HistoryModel>,
+    val excerciseModelList: List<ExcerciseModel>,
+)
